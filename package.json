@@ -1,0 +1,22 @@
+{
+  "name": "api-hd159",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.7.0",
+    "@sindresorhus/slugify": "^2.2.1",
+    "elysia": "^0.7.30",
+    "fs": "^0.0.1-security",
+    "prisma": "^5.7.0",
+    "uuid": "^9.0.1"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seeds/seed.ts"
+  }
+}
